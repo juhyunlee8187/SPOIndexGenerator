@@ -73,8 +73,8 @@ Would you like to create or update index data (y/n)? y
 
 &nbsp;
 
-please note that this demo app currently only allows pdf to be added to the index\
-you can extend this by added more file reader code to the **Program.cs**
+For simplicity the current sample code will only index PDF files\
+you can extend this by adding more file reader related code to the **Program.cs**
 ~~~csharp
 ...
     Stream streamContent = await fileContent.ReadAsStreamAsync();
