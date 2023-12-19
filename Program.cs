@@ -19,8 +19,8 @@ class Program
     {
         configuration = new ConfigurationBuilder()
         .SetBasePath(Directory.GetCurrentDirectory())
-        // .AddJsonFile("appSettings.json", false)
-        .AddJsonFile("appSettings.dev.json", false)
+        .AddJsonFile("appSettings.json", false)
+        // .AddJsonFile("appSettings.dev.json", false)
         .Build();
 
         var serviceProvider = new ServiceCollection()
