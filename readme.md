@@ -34,9 +34,8 @@ there are some preparation
     * ACSSearchEndpoint : `Azure AI Search Endpoint`
     * ACSSearchKey : `Azure AI Search Key`
 
-5. Go to **/Helper/AzureSearchIndexHelper.cs** and Modify line 116\
-    with the desired Group Id for this Index.\
-    *please keep in mind that additional REST call to grab sharepoint permissions can be done via Graph API as well*\
+5. Go to **/Helper/AzureSearchIndexHelper.cs** and Modify line 116 with the desired Group Id for this Index.\
+    *please keep in mind that additional REST call to grab sharepoint permissions can be done via Graph API, so this process can be automated*\
     https://learn.microsoft.com/en-us/graph/api/site-list-permissions?view=graph-rest-1.0&tabs=http
     ~~~csharp
     ...
